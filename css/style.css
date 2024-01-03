@@ -27,6 +27,7 @@ h6 {
 .garis {
     border-bottom: 1px solid var(--primary);
 }
+
 .menuatas .menuatas-brand {
     height: 80px
 }
@@ -330,8 +331,8 @@ button:not(:disabled) {
 .kontainer-jarak,
 .kontainer-xxl {
     width: 100%;
-    padding-right: var(--bs-gutter-x, .75rem);
-    padding-left: var(--bs-gutter-x, .75rem);
+    padding-right: var(--bs-gutter-x, .0rem);
+    padding-left: var(--bs-gutter-x, .0rem);
     margin-right: auto;
     margin-left: auto
 }
@@ -339,6 +340,12 @@ button:not(:disabled) {
 @media (min-width:576px) {
     .kontainer {
         max-width: 540px
+    }
+}
+
+@media (min-width: 384px) {
+    .kontainer {
+        max-width: 350px
     }
 }
 
