@@ -1139,7 +1139,16 @@ button:not(:disabled) {
 }
 
 .jumbotronbesar-item.active {
-    display: block
+    display: block;
+    height: 800px;
+}
+
+.jumbotronbesar-item {
+    background-image: url('../foto/bgdesk.png');
+    background-repeat: no-repeat;
+    background-color: cover;
+    background-position: center;
+    position: relative;
 }
 
 .lurus {
