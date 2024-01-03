@@ -24,6 +24,9 @@ h6 {
     font-weight: 500
 }
 
+.garis {
+    border-bottom: 1px solid var(--primary);
+}
 .menuatas .menuatas-brand {
     height: 80px
 }
